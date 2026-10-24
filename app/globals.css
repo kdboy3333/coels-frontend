@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --coels-navy: #102a43;
+  --coels-navy-light: #243b53;
+  --coels-gold: #c9a227;
+  --coels-text: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--coels-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
